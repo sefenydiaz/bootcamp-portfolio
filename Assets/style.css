@@ -11,6 +11,8 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: plum;
     color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
@@ -18,12 +20,14 @@ header {
     margin-left: 70px;
 }
 
-
+li:hover {
+    background-color: red;
+    scale: 1.5;
+}
 
 header nav {
     font-size: 20px;
     margin-right: 20px;
-    float: right;
 }
 
 header nav ul {
@@ -42,13 +46,13 @@ main {
 
 .profile {
     height: 800px;
-    width: 50%;
     margin: 25px 0px 25px 300px;
     background-image: url("./images/portfolio\ pic.jpeg");
     background-size: cover;
     background-position: center;
     display: flex;
 }
+
 /*FIX THIS FONT SIZE!*/
 .subtitle {
     font-size: 40px;
@@ -58,13 +62,31 @@ h2 {
     font-size: 50px;
     display: flex;
     margin: 100px;
-    
+
 }
 
 p {
     font-size: 20px;
     margin-left: 300px;
 }
-footer {
+
+footer {}
+
+@media screen and (max-width: 500px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0px;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile {
+
+    }
 
 }
