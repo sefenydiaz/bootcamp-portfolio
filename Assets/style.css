@@ -35,9 +35,18 @@ header nav ul li {
 }
 
 main {
-
+    display: flex;
+    flex-direction: column;
 }
 
+.profile {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/portfolio\ pic.jpeg");
+    background-size: cover;
+    background-position: center;
+}
 /*FIX THIS FONT SIZE!*/
 .subtitle {
     font-size: 40px;
@@ -45,6 +54,7 @@ main {
 
 h1 {
     font-size: 50px;
+    
 }
 
 footer {
