@@ -78,10 +78,15 @@ p {
     margin-left: 300px;
 }
 
+.placeholder:hover {
+    background-color: red;
+    scale: 1.5;
+}
+
 main ul li {
     font-size: 25px;
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 50px;
 }
 
 footer {}
