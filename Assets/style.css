@@ -1,0 +1,116 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: plum;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+li:hover {
+    background-color: red;
+    scale: 1.5;
+}
+
+header nav {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
+    /* height: 800px;
+    margin: 25px 0px 25px 300px;
+    background-image: url("./images/portfolio\ pic.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;*/
+
+
+/*FIX THIS FONT SIZE!*/
+.subtitle {
+    font-size: 40px;
+    display: inline;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    margin: 100px;
+
+}
+
+p {
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.placeholder:hover {
+    background-color: red;
+    scale: 1.5;
+}
+
+main ul li {
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+footer {}
+
+@media screen and (max-width: 500px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0px;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+
+    }
+
+    p {
+       margin: 0 10px;
+    }
+
+}
