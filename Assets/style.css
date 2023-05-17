@@ -62,6 +62,8 @@ main {
 /*FIX THIS FONT SIZE!*/
 .subtitle {
     font-size: 40px;
+    display: inline;
+    margin: 10px auto;
 }
 
 h2 {
@@ -74,6 +76,12 @@ h2 {
 p {
     font-size: 20px;
     margin-left: 300px;
+}
+
+main ul li {
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px 20px;
 }
 
 footer {}
@@ -96,13 +104,8 @@ footer {}
 
     }
 
-    .profile {
-        /*display: inline;
-        position: relative;
-        right: 80px;*/
-    }
     p {
-        align-items: center;
+       margin: 0 10px;
     }
 
 }
